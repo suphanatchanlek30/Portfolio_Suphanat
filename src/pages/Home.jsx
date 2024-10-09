@@ -14,7 +14,7 @@ const Home = () => {
                 </p>
             </div>
             
-            <h1 className='md:text-[44px] md:text-start font-bold text-[#232E35] md:mt-8 text-center text-[40px] mt-10'>Suphanat Chanlek.</h1>
+            <h1 className='md:text-[44px] md:text-start font-bold text-[#232E35] md:mt-8 text-center text-[40px] mt-10'>Suphanat <span className='text-[#7E74F1]'>Chanlek.</span></h1>
 
             <p className='md:text-[16px] md:text-start text-[#232E35] font-normal mt-8 text-center'>
                 Creative front-end developer. Proficient in JavaScript, Next.js and React.js and <br /> are interested in making web applications.
