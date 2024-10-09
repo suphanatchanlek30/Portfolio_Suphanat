@@ -2,14 +2,20 @@ import React from 'react'
 import { GoMoon } from "react-icons/go";
 
 const navLists = [
-    {name: "Home"},
+    {name: "Home", section: 'homeRef'},
     {name: "About"},
     {name: "Work"},
     {name: "Education & Skill"},
     {name: "Contact"},
 ]
 
-const Navbar = () => {
+const Navbar = ({ scrollToSection, homeRef }) => {
+    // สร้าง object refs เพื่อเชื่อมโยงกับแต่ละเมนู
+  const sections = {
+    homeRef: homeRef,
+    // สามารถเพิ่ม sections ที่เหลือตรงนี้
+  };
+    
   return (
     <header className='bg-white py-4 md:mt-4 font-body lg:p-4 md:p-0 p-4 mt-2'>
         <nav className='container mx-auto flex text-[#232E35] justify-between text-center items-center'>
@@ -22,7 +28,9 @@ const Navbar = () => {
             <ul className='text-[16px] text-center sm:flex hidden items-center gap-14 '>
                 {
                     navLists.map((list, index) => (
-                        <li key={index}>{list.name}</li>
+                        <li key={index} onClick={() => scrollToSection(sections[list.section])}>
+                            <a href="">{list.name}</a>
+                        </li>
                     ))
                 }
             </ul>
