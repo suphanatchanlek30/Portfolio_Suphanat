@@ -1,6 +1,8 @@
 import React from "react";
 import { MdOutlineRemove } from "react-icons/md";
-import { IoCodeSlashOutline } from "react-icons/io5";
+import { RiVipCrownLine } from "react-icons/ri";
+import { BsDatabase } from "react-icons/bs";
+import { TfiWorld } from "react-icons/tfi";
 
 const Service = () => {
   return (
@@ -26,7 +28,7 @@ const Service = () => {
         <div className="bg-[#FFFFFF] w-[361px] h-[294px] rounded-xl shadow-md">
             <div className="flex flex-col items-center pt-12">
                 <div className="w-[56px] h-[56px] rounded-2xl p-4 bg-[#F5F3FE] flex items-center justify-center">
-                    <IoCodeSlashOutline/>
+                    <RiVipCrownLine className="text-[#7E74F1] text-[30px] items-center" />
                 </div>
                 <h2 className="text-center pt-6  text-[18px] font-medium">UI/UX Design</h2>
                 <p className="text-center pt-4 text-[16px] font-normal p-10 leading-6">Craft intuitive and visually appealing UX/UI designs that enhance user experience and interface.</p>
@@ -38,7 +40,7 @@ const Service = () => {
         <div className="bg-[#FFFFFF] w-[361px] h-[294px] rounded-xl shadow-md">
             <div className="flex flex-col items-center pt-12">
                 <div className="w-[56px] h-[56px] rounded-2xl p-4 bg-[#F5F3FE] flex items-center justify-center">
-                    <IoCodeSlashOutline/>
+                    <BsDatabase className="text-[#7E74F1] text-[30px] items-center"/>
                 </div>
                 <h2 className="text-center pt-6  text-[18px] font-medium">Database Management</h2>
                 <p className="text-center pt-4 text-[16px] font-normal p-10 leading-6">I have a strong understanding of database design and am proficient in creating efficient and well-structured databases.</p>
@@ -50,7 +52,7 @@ const Service = () => {
         <div className="bg-[#FFFFFF] w-[361px] h-[294px] rounded-xl shadow-md">
             <div className="flex flex-col items-center pt-12">
                 <div className="w-[56px] h-[56px] rounded-2xl p-4 bg-[#F5F3FE] flex items-center justify-center">
-                    <IoCodeSlashOutline/>
+                    <TfiWorld className="text-[#7E74F1] text-[30px] items-center"/>
                 </div>
                 <h2 className="text-center pt-6  text-[18px] font-medium">Web Development</h2>
                 <p className="text-center pt-4 text-[16px] font-normal p-10 leading-6">I create and maintain websites, ensuring their performance and ability to handle traffic efficiently.</p>
