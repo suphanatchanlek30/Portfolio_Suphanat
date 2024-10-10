@@ -2,25 +2,28 @@ import React from 'react'
 import { GoMoon } from "react-icons/go";
 
 const navLists = [
-    {name: "Home", section: 'homeRef'},
-    {name: "About"},
-    {name: "Work"},
-    {name: "Education & Skill"},
-    {name: "Contact"},
+    { name: "Home", section: 'homeRef' },
+    { name: "About", section: 'aboutRef' },
+    { name: "Work", section: 'workRef' },
+    { name: "Education & Skill", section: 'educationRef' },
+    { name: "Contact", section: 'contactRef' },
 ]
 
-const Navbar = ({ scrollToSection, homeRef }) => {
+const Navbar = ({ scrollToSection, homeRef, aboutRef, workRef, educationRef, contactRef }) => {
     // สร้าง object refs เพื่อเชื่อมโยงกับแต่ละเมนู
-  const sections = {
-    homeRef: homeRef,
-    // สามารถเพิ่ม sections ที่เหลือตรงนี้
-  };
+    const sections = {
+        homeRef: homeRef,
+        aboutRef: aboutRef,
+        workRef: workRef,
+        educationRef: educationRef,
+        contactRef: contactRef,
+      };
     
   return (
     <header className='bg-white py-4 md:mt-4 font-body lg:p-4 md:p-0 p-4 mt-2'>
         <nav className='container mx-auto flex text-[#232E35] justify-between text-center items-center'>
             {/* Logo */}
-            <a href="" className='text-[26px] font-semibold text-center'>
+            <a href="#" className='text-[26px] font-semibold text-center'>
                 <h2>Suphanat.</h2>
             </a>
             
@@ -29,7 +32,7 @@ const Navbar = ({ scrollToSection, homeRef }) => {
                 {
                     navLists.map((list, index) => (
                         <li key={index} onClick={() => scrollToSection(sections[list.section])}>
-                            <a href="">{list.name}</a>
+                            <a href="#" className='hover:text-[#5d56a7] duration-100'>{list.name}</a>
                         </li>
                     ))
                 }
@@ -38,7 +41,7 @@ const Navbar = ({ scrollToSection, homeRef }) => {
             {/* Button and icon */}
             <div className='flex items-center '>
                 
-                <a href="">
+                <a href="#">
                 <GoMoon className='mr-8 text-[28px]' />
                 </a>
 
