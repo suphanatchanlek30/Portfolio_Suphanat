@@ -11,7 +11,7 @@ const Service = () => {
       {/* ข้อความ */}
       <div className="container mx-auto md:pt-[150px] pt-[100px]">
         <div className="flex items-center justify-center">
-          <MdOutlineRemove className="text-[#656D72] mr-4 text-[30px] items-center" />
+          <MdOutlineRemove className="text-[#D9D9D9] mr-4 text-[30px] items-center" />
           <p className="md:text-[16px] text-[14px] font-medium text-[#656D72] md:tracking-[7.5px] tracking-[6.5px] text-center">
             SERVICES
           </p>

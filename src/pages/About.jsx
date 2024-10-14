@@ -7,7 +7,7 @@ const About = () => {
       {/* ข้อความ */}
       <div className="container mx-auto md:pt-[150px] pt-[100px]">
         <div className="flex items-center justify-center">
-          <MdOutlineRemove className="text-[#656D72] mr-4 md:text-[30px] text-[28px] items-center" />
+          <MdOutlineRemove className="text-[#D9D9D9] mr-4 md:text-[30px] text-[28px] items-center" />
           <p className="md:text-[16px] text-[14px] font-medium text-[#656D72] md:tracking-[7.5px] tracking-[6.5px] text-center">
             MY SELF
           </p>
@@ -18,7 +18,7 @@ const About = () => {
       </div>
 
       {/* content */}
-      <div className='container mx-auto flex flex-col font-body md:flex-row justify-between md:gap-8 gap-2 md:mt-[100px] md:mb-[200px] mt-[20px]'>
+      <div className='container mx-auto flex flex-col font-body md:flex-row justify-between md:gap-8 gap-2 md:mt-[100px] md:mb-[200px] mt-[20px] mb-[100px]'>
         {/* left */}
         <div className='md:w-1/2 w-full md:pl-0 p-4'>
             <div className='flex md:justify-center md:w-[370px] md:h-[370px] mx-auto w-full h-[350px] justify-center'>
