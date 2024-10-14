@@ -22,7 +22,7 @@ const Service = () => {
       </div>
 
       {/* กล่อง */}
-      <div className="container mx-auto flex md:flex-row flex-col gap-8 justify-around md:pt-[200px] md:pb-[200px] pt-[50px] pb-[100px] items-center">
+      <div className="container p-5 mx-auto flex md:flex-row flex-col gap-8 justify-around md:pt-[200px] md:pb-[200px] pt-[50px] pb-[100px] items-center">
 
         {/* กล่อง 1 */}
         <div className="bg-[#FFFFFF] w-[361px] h-[294px] rounded-xl shadow-md">

@@ -39,7 +39,7 @@ const Work = () => {
   ];
 
   return (
-    <div className="bg-[#f7f7f7] font-body md:p-0 p-4">
+    <div className="bg-[#f7f7f7] font-body md:p-9 p-4">
     <div className="container mx-auto font-body pt-10 relative md:pb-[150px] pb-[50px] ">
       {/* ข้อความ */}
       <div className="container mx-auto md:pt-[150px] pt-[50px] md:pb-32">

@@ -3,7 +3,7 @@ import { MdOutlineRemove } from "react-icons/md";
 
 const Home = () => {
   return (
-    <div className='container mx-auto flex flex-col font-body md:flex-row justify-between items-center md:gap-4 gap-4 md:mt-[100px] md:mb-[200px] mt-[50px]'>
+    <div className='container p-5 mx-auto flex flex-col font-body md:flex-row justify-between items-center md:gap-4 gap-4 md:mt-[100px] md:mb-[200px] mt-[50px]'>
         {/* left */}
         <div className='md:w-1/2 w-full md:p-0 p-4'>
 

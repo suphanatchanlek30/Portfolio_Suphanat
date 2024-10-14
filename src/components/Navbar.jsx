@@ -20,7 +20,7 @@ const Navbar = ({ scrollToSection, homeRef, aboutRef, workRef, educationRef, con
       };
     
   return (
-    <header className='bg-white py-4 md:mt-4 font-body lg:p-4 md:p-0 p-4 mt-2'>
+    <header className='bg-white py-4 md:mt-4 font-body lg:p-4 md:p-9 p-4 mt-2'>
         <nav className='container mx-auto flex text-[#232E35] justify-between text-center items-center'>
             {/* Logo */}
             <a href="#" className='text-[26px] font-semibold text-center'>
