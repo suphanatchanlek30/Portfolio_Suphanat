@@ -5,12 +5,14 @@ import Home from './pages/Home';
 import Service from './pages/Service';
 import About from './pages/About';
 import Work from './pages/Work';
+import Education from './pages/Education';
 
 function App() {
    // สร้าง refs สำหรับแต่ละ section
    const homeRef = useRef(null);
    const aboutRef = useRef(null);
    const workRef = useRef(null);
+   const educationRef = useRef(null);
  
    // ฟังก์ชันสำหรับเลื่อนหน้าไปยัง section ที่ต้องการ
    const scrollToSection = (section) => {
@@ -25,6 +27,7 @@ function App() {
           homeRef={homeRef} 
           aboutRef={aboutRef}
           workRef={workRef}
+          educationRef={educationRef}
         />
         <div ref={homeRef}>
           <Home />
@@ -35,6 +38,9 @@ function App() {
         </div>
         <div ref={workRef}>
           <Work/>
+        </div>
+        <div ref={educationRef}>
+          <Education/>
         </div>
       </div>
     </>
