@@ -1,5 +1,5 @@
-import { useRef, useState } from 'react'
-import './App.css'
+import { useRef } from 'react';
+import './App.css';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Service from './pages/Service';
@@ -12,6 +12,7 @@ import Contact from './pages/Contact';
 function App() {
    // สร้าง refs สำหรับแต่ละ section
    const homeRef = useRef(null);
+   const serviceRef = useRef(null); // เพิ่ม ref สำหรับ Service
    const aboutRef = useRef(null);
    const workRef = useRef(null);
    const educationRef = useRef(null);
@@ -19,7 +20,9 @@ function App() {
  
    // ฟังก์ชันสำหรับเลื่อนหน้าไปยัง section ที่ต้องการ
    const scrollToSection = (section) => {
-     section.current.scrollIntoView({ behavior: 'smooth' });
+     if (section.current) { // ตรวจสอบว่า section.current มีค่าอยู่
+       section.current.scrollIntoView({ behavior: 'smooth' });
+     }
    };
 
   return (
@@ -28,6 +31,7 @@ function App() {
         <Navbar 
           scrollToSection={scrollToSection} 
           homeRef={homeRef} 
+          serviceRef={serviceRef} // ส่ง ref สำหรับ Service
           aboutRef={aboutRef}
           workRef={workRef}
           educationRef={educationRef}
@@ -36,20 +40,22 @@ function App() {
         <div ref={homeRef}>
           <Home />
         </div>
-        <Service/>
+        <div ref={serviceRef}>
+          <Service/> {/* ใช้ ref สำหรับ Service */}
+        </div>
         <div ref={aboutRef}>
           <About />
         </div>
         <div ref={workRef}>
-          <Work/>
+          <Work />
         </div>
         <div ref={educationRef}>
-          <Education/>
+          <Education />
         </div>
         <div ref={contactRef}>
-          <Contact/>
+          <Contact />
         </div>
-        <Footer/>
+        <Footer />
       </div>
     </>
   )
