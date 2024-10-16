@@ -15,7 +15,7 @@ const Service = () => {
             SERVICES
           </p>
         </div>
-        <h1 className="md:text-center md:text-[36px] font-bold text-[#232E35] md:mt-8 text-center text-[40px] mt-8">
+        <h1 className="md:text-center md:text-[36px] font-bold text-[#232E35] md:mt-8 text-center text-[35px] mt-8">
           Specialized in
         </h1>
       </div>

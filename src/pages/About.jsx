@@ -12,7 +12,7 @@ const About = () => {
             MY SELF
           </p>
         </div>
-        <h1 className="md:text-[36px] font-bold text-[#232E35] md:mt-8 text-[40px] mt-6">
+        <h1 className="md:text-[36px] font-bold text-[#232E35] md:mt-8 text-[35px] mt-6">
           About me
         </h1>
       </div>

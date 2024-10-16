@@ -7,10 +7,10 @@ import { SlSocialLinkedin } from "react-icons/sl";
 
 const Footer = () => {
   return (
-    <footer className="bg-white py-4 font-body">
-      <div className="container mx-auto flex flex-col font-body p-5">
+    <footer className="bg-white md:py-[40px] py-[20px] font-body">
+      <div className="container mx-auto flex flex-col font-body pr-4 pl-4">
         {/* Icon row */}
-        <div className="flex justify-center gap-[32px] mb-6">
+        <div className="flex justify-center gap-[32px] mb-5">
           <a href="https://www.instagram.com/suphanatttt/" target="_blank" className="text-[#656D72] hover:text-gray-600 text-[20px]">
             <FaInstagram />
           </a>

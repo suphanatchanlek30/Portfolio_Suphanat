@@ -50,8 +50,8 @@ const Work = () => {
           </p>
         </div>
         <div className="flex md:justify-between md:flex-row flex-col">
-        <h1 className="md:text-start md:text-[36px] font-bold text-[#232E35] md:mt-8 text-center text-[40px] mt-6">
-            Featured Portfolios
+        <h1 className="md:text-start md:text-[36px] font-bold text-[#232E35] md:mt-8 text-center text-[35px] mt-6">
+          Featured Portfolios
         </h1>
         {/* Custom Navigation */}
         <div className="flex md:flex md:flex-row md:justify-end md:items-end md:relative md:bottom-0 absolute bottom-[-20px] md:right-[0px] right-1/3 m-4 items-center md:mt-0 mt-[50px] gap-[16px]">

@@ -58,8 +58,8 @@ const Education = () => {
           </p>
         </div>
 
-        <h1 className="md:text-start md:text-[36px] font-bold text-[#232E35] md:mt-8 text-center text-[30px] mt-6">
-          Featured Portfolios
+        <h1 className="md:text-start md:text-[36px] font-bold text-[#232E35] md:mt-8 text-center text-[35px] mt-6">
+          Education & Skills
         </h1>
       </div>
 
