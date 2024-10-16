@@ -64,7 +64,7 @@ const Education = () => {
       </div>
 
       {/* Education & Skill */}
-      <div className="flex flex-col md:flex-row md:gap-5 gap-4">
+      <div className="flex flex-col md:flex-row md:gap-5 gap-4 md:mb-16 mb-8">
         {/* left */}
         <div className="w-full md:w-1/2">
           <div className="p-4">

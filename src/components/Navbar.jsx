@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { GoMoon } from "react-icons/go";
 import { FiMenu } from "react-icons/fi"; // ไอคอนสำหรับเปิดเมนู
 import { AiOutlineClose } from "react-icons/ai"; // ไอคอนสำหรับปิดเมนู
+import { IoSunnyOutline } from "react-icons/io5";
 
 const navLists = [
     { name: "Home", section: 'homeRef' },
@@ -24,10 +25,21 @@ const Navbar = ({ homeRef, aboutRef, workRef, educationRef, contactRef }) => {
     // สร้างสถานะสำหรับเปิด/ปิดเมนูแบบแท็บ
     const [menuOpen, setMenuOpen] = useState(false);
 
+    // สร้างสถานะสำหรับ darkmode
+    const [darkMode, setDarkMode] = useState(false);
+
+
     // ฟังก์ชันสำหรับจัดการการเปิด/ปิดเมนู
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
     };
+
+    // ฟังก์ชันสำหรับจัดการ dark mode
+    const toggleDarkMode = () => {
+        setDarkMode(!darkMode);
+    };
+
+
 
     // ฟังก์ชันเลื่อนเพื่อไปยัง section
     const scrollToSection = (ref) => {
@@ -52,7 +64,9 @@ const Navbar = ({ homeRef, aboutRef, workRef, educationRef, contactRef }) => {
 
                 {/* Button และไอคอนสำหรับหน้าจอใหญ่ */}
                 <div className='items-center hidden md:flex'>
-                    <GoMoon className='mr-8 text-[28px]' />
+                    <button onClick={toggleDarkMode}>
+                        {darkMode ? <GoMoon className='mr-8 text-[28px]'/> : <IoSunnyOutline className='mr-8 text-[28px]'/>}
+                    </button>
                     <button className='text-[16px] text-center font-medium pt-4 pb-4 pr-6 pl-6 border rounded-md'>
                         <a href="https://github.com/suphanatchanlek30" target="_blank" rel="noopener noreferrer">Git-Hub</a>
                     </button>
