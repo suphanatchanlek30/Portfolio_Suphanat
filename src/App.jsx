@@ -6,6 +6,7 @@ import Service from './pages/Service';
 import About from './pages/About';
 import Work from './pages/Work';
 import Education from './pages/Education';
+import Footer from './components/Footer';
 
 function App() {
    // สร้าง refs สำหรับแต่ละ section
@@ -42,6 +43,8 @@ function App() {
         <div ref={educationRef}>
           <Education/>
         </div>
+
+        <Footer/>
       </div>
     </>
   )

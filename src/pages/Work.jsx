@@ -42,7 +42,7 @@ const Work = () => {
     <div className="bg-[#f7f7f7] font-body md:p-9 p-4">
     <div className="container mx-auto font-body pt-10 relative md:pb-[150px] pb-[50px] ">
       {/* ข้อความ */}
-      <div className="container mx-auto md:pt-[150px] pt-[50px] md:pb-32">
+      <div className="container mx-auto md:pt-[75px] pt-[50px] md:pb-32">
         <div className="flex items-center justify-start">
           <MdOutlineRemove className="text-[#D9D9D9] mr-4 md:text-[30px] text-[28px] items-center" />
           <p className="md:text-[16px] text-[14px] font-medium text-[#656D72] md:tracking-[7.5px] tracking-[6.5px] text-center">

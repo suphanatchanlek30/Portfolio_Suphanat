@@ -50,7 +50,7 @@ const Education = () => {
   return (
     <div className="container mx-auto flex flex-col font-body p-5">
       {/* ข้อความ */}
-      <div className="md:pt-[150px] pt-[50px] md:pb-24">
+      <div className="md:pt-[75px] pt-[50px] md:pb-24">
         <div className="flex items-center justify-start">
           <MdOutlineRemove className="text-[#D9D9D9] mr-4 md:text-[30px] text-[28px] items-center" />
           <p className="md:text-[16px] text-[14px] font-medium text-[#656D72] md:tracking-[7.5px] tracking-[6.5px] text-center">
