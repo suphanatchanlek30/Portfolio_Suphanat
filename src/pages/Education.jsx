@@ -70,7 +70,7 @@ const Education = () => {
           <div className="p-4">
             <div className="relative md:mt-0 mt-4">
               {/* line */}
-              <div className="absolute inset-0 flex items-center justify-start pl-[12px]">
+              <div className="absolute inset-0 flex items-center justify-start md:pl-[12px] pl-[10px]">
                 <div className="h-full w-[1px] bg-[#F1F1F1]"></div>
               </div>
 

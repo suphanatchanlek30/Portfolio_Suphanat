@@ -48,7 +48,7 @@ const About = () => {
           ].map((skill, index) => (
             <div key={index} className="flex items-center pt-4">
               <MdOutlineRemove className="text-[#D9D9D9] mr-4 text-[20px]" />
-              <p className="md:text-[18px] text-[15px] font-normal text-[#656D72] dark:text-[#FFFFFF]">
+              <p className="md:text-[16px] text-[14px] font-normal text-[#656D72] dark:text-[#FFFFFF]">
                 {skill}
               </p>
             </div>

@@ -39,7 +39,7 @@ const Work = () => {
   ];
 
   return (
-    <div className="bg-[#f7f7f7] font-body md:p-9 p-4 dark:bg-[#171717]">
+    <div className="bg-[#f7f7f7] font-body md:p-9 p-4 dark:bg-[#151414]">
     <div className="container mx-auto font-body pt-10 relative md:pb-[150px] pb-[50px] ">
       {/* ข้อความ */}
       <div className="container mx-auto md:pt-[75px] pt-[50px] md:pb-32">
@@ -55,12 +55,12 @@ const Work = () => {
         </h1>
         {/* Custom Navigation */}
         <div className="flex md:flex md:flex-row md:justify-end md:items-end md:relative md:bottom-0 absolute bottom-[-20px] md:right-[0px] right-1/3 m-4 items-center md:mt-0 mt-[50px] gap-[16px]">
-        <div ref={prevRef} className="transform -translate-y-1/2 p-1 right-16 z-10 cursor-pointer text-[#a69ff0] hover:text-[#7E74F1] bg-[#EAE6FE] rounded-[16px] ">
+        <div ref={prevRef} className="transform -translate-y-1/2 p-1 right-16 z-10 cursor-pointer text-[#a69ff0] hover:text-[#7E74F1] bg-[#EAE6FE] dark:bg-[#ffffff] rounded-[16px] ">
             <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
             </svg>
         </div>
-        <div ref={nextRef} className="transform -translate-y-1/2 p-1 right-8 z-10 cursor-pointer text-[#a69ff0] hover:text-[#7E74F1] bg-[#EAE6FE] rounded-[16px]">
+        <div ref={nextRef} className="transform -translate-y-1/2 p-1 right-8 z-10 cursor-pointer text-[#a69ff0] hover:text-[#7E74F1] bg-[#EAE6FE] dark:bg-[#ffffff] rounded-[16px]">
             <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>

@@ -6,7 +6,7 @@ import { FiPhoneCall } from "react-icons/fi";
 
 const Contact = () => {
   return (
-    <div className="bg-[#f7f7f7] font-body md:p-9 p-4 md:pb-[150px] pb-[50px] dark:bg-[#171717]">
+    <div className="bg-[#f7f7f7] font-body md:p-9 p-4 md:pb-[150px] pb-[50px] dark:bg-[#151414]">
       <div className="container mx-auto flex flex-col font-body p-5">
         {/* ข้อความ */}
         <div className="md:pt-[75px] pt-[50px] md:pb-16">
@@ -22,7 +22,7 @@ const Contact = () => {
           </h1>
         </div>
 
-        <div className="flex flex-col md:flex-row md:space-x-8 md:mt-0 mt-6">
+        <div className="flex flex-col md:flex-row md:space-x-0 md:mt-0 mt-6">
           {/* Left (Form) */}
           <div className="w-full md:w-1/2">
             <form className="space-y-4">
@@ -51,11 +51,11 @@ const Contact = () => {
 
           {/* Right (Contact Info) */}
           <div className="w-full md:w-1/2 mt-6 md:mt-0 font-body">
-            <div className="md:mt-[70px] mt-4 md:ml-[80px] ml-0">
-              <div className="space-y-[48px] leading-[30px]">
+            <div className="md:mt-[70px] mt-2 md:ml-[80px] ml-0">
+              <div className="md:space-y-[48px] space-y-[32px] leading-[30px]">
                 {/* กล่อง 1 */}
                 <div className="text-gray-700 flex flex-row gap-6">
-                  <div className="w-[56px] h-[56px] rounded-[16px] bg-[#F5F3FE] flex items-center justify-center">
+                  <div className="w-[56px] h-[56px] rounded-[16px] bg-[#F5F3FE] dark:bg-[#FFFFFF] flex items-center justify-center">
                     <CiMapPin className="text-[#7E74F1] text-[27px] items-center" />
                   </div>
                   <div className="flex flex-col">
@@ -66,7 +66,7 @@ const Contact = () => {
 
                 {/* กล่อง 2 */}
                 <div className="text-gray-700 flex flex-row gap-6">
-                  <div className="w-[56px] h-[56px] rounded-[16px] bg-[#F5F3FE] flex items-center justify-center">
+                  <div className="w-[56px] h-[56px] rounded-[16px] bg-[#F5F3FE] dark:bg-[#FFFFFF] flex items-center justify-center">
                     <FiPhoneCall className="text-[#7E74F1] text-[20px] items-center" />
                   </div>
                   <div className="flex flex-col">
@@ -77,7 +77,7 @@ const Contact = () => {
 
                 {/* กล่อง 3 */}
                 <div className="text-gray-700 flex flex-row gap-6">
-                  <div className="w-[56px] h-[56px] rounded-[16px] bg-[#F5F3FE] flex items-center justify-center">
+                  <div className="w-[56px] h-[56px] rounded-[16px] bg-[#F5F3FE] dark:bg-[#FFFFFF] flex items-center justify-center">
                     <AiOutlineMail className="text-[#7E74F1] text-[25px] items-center" />
                   </div>
                   <div className="flex flex-col">

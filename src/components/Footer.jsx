@@ -7,7 +7,7 @@ import { SlSocialLinkedin } from "react-icons/sl";
 
 const Footer = () => {
   return (
-    <footer className="bg-white md:py-[40px] py-[20px] font-body dark:bg-[#1E1E1E]">
+    <footer className="bg-white md:py-[40px] py-[20px] font-body dark:bg-[#0b0b0b]">
       <div className="container mx-auto flex flex-col font-body pr-4 pl-4">
         {/* Icon row */}
         <div className="flex justify-center gap-[32px] mb-5">

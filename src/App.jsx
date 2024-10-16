@@ -34,7 +34,7 @@ function App() {
 
   return (
     <div className={darkMode ? 'dark' : ''}>
-      <div className="bg-white dark:bg-[#1E1E1E] transition-colors duration-300">
+      <div className="bg-white dark:bg-[#0b0b0b] transition-colors duration-300">
         <Navbar
           scrollToSection={scrollToSection}
           homeRef={homeRef}

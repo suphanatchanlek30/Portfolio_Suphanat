@@ -28,11 +28,11 @@ const Navbar = ({ scrollToSection, homeRef, aboutRef, workRef, educationRef, con
     };
 
     return (
-        <header className='bg-white dark:bg-[#1E1E1E] py-4 md:mt-0 mt-0 font-body lg:p-4 md:p-9 p-4 sticky top-0 z-50 transition-colors duration-300'>
+        <header className='bg-white dark:bg-[#0b0b0b] py-4 md:mt-0 mt-0 font-body lg:p-4 md:p-9 p-4 sticky top-0 z-50 transition-colors duration-300'>
             <nav className='container mx-auto flex justify-between items-center'>
                 <h2 className='text-[26px] font-semibold text-center dark:text-white'>Suphanat.</h2>
                 
-                <ul className='text-[16px] text-center sm:flex hidden items-center gap-14'>
+                <ul className='text-[16px] text-center sm:flex md:hidden lg:inline-flex hidden  items-center gap-14'>
                     {navLists.map((list, index) => (
                         <li key={index} onClick={() => scrollToSection(sections[list.section])}>
                             <button className='hover:text-[#5d56a7] dark:text-white dark:hover:text-[#7E74F1] duration-100'>{list.name}</button>
