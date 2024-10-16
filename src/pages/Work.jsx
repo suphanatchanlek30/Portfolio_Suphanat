@@ -6,6 +6,7 @@ import { Navigation } from "swiper/modules";
 import { useRef } from "react";
 import { MdOutlineRemove } from 'react-icons/md'
 import { IoLinkOutline } from "react-icons/io5";
+import Portfolio from "../assets/project/project1.png";
 
 const Work = () => {
   const prevRef = useRef(null);
@@ -13,10 +14,10 @@ const Work = () => {
 
   const portfolioItems = [
     {
-      img: "https://via.placeholder.com/500x300",
-      title: "Agency Website.",
-      tech1: ["WordPress", "React"],
-      link: "#",
+      img: Portfolio,
+      title: "UX/UI Portfolio",
+      tech1: ["Figma"],
+      link: "https://www.figma.com/design/YoHp6g7w8B77IejvLXQdVv/Portfolio-Suphanat-Chanlek?node-id=0-1&t=UOEIN5TYtLVfz3Rd-1",
     },
     {
       img: "https://via.placeholder.com/500x300",
@@ -117,7 +118,7 @@ const Work = () => {
                         <p className="text-[14px] text-[#656D72] border pr-[8px] pl-[8px] pt-[4px] pb-[4px] rounded-[4px] mt-[15px] border-gray-30">{tech}</p>
                     </div>
                  ))}
-                  <a href={item.link} className="text-[#656D72] hover:text-gray-600">
+                  <a href={item.link} className="text-[#656D72] hover:text-gray-600" target="_blank">
                     <IoLinkOutline className="text-[28px] items-center justify-center mt-4"/>
                   </a>
                 </div>
