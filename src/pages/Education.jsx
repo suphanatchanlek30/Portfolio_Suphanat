@@ -58,13 +58,13 @@ const Education = () => {
           </p>
         </div>
 
-        <h1 className="md:text-start md:text-[36px] font-bold text-[#232E35] md:mt-8 text-center text-[40px] mt-6">
+        <h1 className="md:text-start md:text-[36px] font-bold text-[#232E35] md:mt-8 text-center text-[30px] mt-6">
           Featured Portfolios
         </h1>
       </div>
 
       {/* Education & Skill */}
-      <div className="flex flex-col md:flex-row md:gap-5 gap-1">
+      <div className="flex flex-col md:flex-row md:gap-5 gap-4">
         {/* left */}
         <div className="w-full md:w-1/2">
           <div className="p-4">
@@ -76,7 +76,7 @@ const Education = () => {
 
               {timelineData.map((item, index) => (
                 <div
-                  className="relative flex items-start mb-[64px] md:mb-[110px]"
+                  className="relative flex items-start mb-[40px] md:mb-[64px]"
                   key={index}
                 >
                   {/* Circle marker */}
@@ -86,10 +86,10 @@ const Education = () => {
                     <h3 className="text-[16px] md:text-[18px] font-medium text-[#232E35] leading-[30px]">
                       {item.title}
                     </h3>
-                    <p className="text-[14px] md:text-[16px] font-normal text-[#656D72] leading-[40px]">
+                    <p className="text-[14px] md:text-[16px] font-normal text-[#656D72] leading-[30px]">
                       {item.description}
                     </p>
-                    <p className="text-[14px] md:text-[16px] font-medium text-[#232E35] leading-[40px]">
+                    <p className="text-[14px] md:text-[16px] font-medium text-[#232E35] leading-[30px]">
                       {item.date}
                     </p>
                   </div>
@@ -103,7 +103,7 @@ const Education = () => {
         <div className="bg-white w-full md:w-1/2 md:pt-2 pt-0">
           {/* text */}
           <div>
-            <p className="text-[#656D72] text-[16px] leading-[32px] px-4 pb-10">
+            <p className="text-[#656D72] text-[14px] md:text-[16px] leading-[32px] px-4 pb-10">
               I have been continuously learning in the field of front-end and
               experimenting with new technologies and frameworks, and here you
               can see a summary of my skills.
@@ -111,17 +111,17 @@ const Education = () => {
           </div>
 
           {/* logo */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-4 px-1">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 md:grid-cols-2 lg:grid-cols-3 px-2">
             {skills.map((skill) => (
-              <div key={skill.name} className="flex items-center gap-4 p-4">
-                <div className="bg-[#EFEFEF] p-[10px] rounded-xl shadow-lg">
+              <div key={skill.name} className="flex items-center gap-4 p-3">
+                <div className="bg-[#EFEFEF] p-[8px] rounded-xl shadow-lg">
                   <img
                     src={skill.img}
                     alt={skill.name}
-                    className="w-[46px] h-[46px] object-contain"
+                    className="w-[40px] h-[40px] md:w-[46px] md:h-[46px] object-contain"
                   />
                 </div>
-                <p className="text-sm font-semibold">{skill.name}</p>
+                <p className="text-xs md:text-sm font-semibold">{skill.name}</p>
               </div>
             ))}
           </div>
