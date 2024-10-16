@@ -8,11 +8,11 @@ const About = () => {
       <div className="md:pt-[150px] pt-[100px] text-center">
         <div className="flex items-center justify-center">
           <MdOutlineRemove className="text-[#D9D9D9] mr-4 md:text-[30px] text-[28px]" />
-          <p className="md:text-[16px] text-[14px] font-medium text-[#656D72] md:tracking-[7.5px] tracking-[6.5px]">
+          <p className="md:text-[16px] text-[14px] font-medium text-[#656D72] md:tracking-[7.5px] tracking-[6.5px] dark:text-[#FFFFFF]">
             MY SELF
           </p>
         </div>
-        <h1 className="md:text-[36px] font-bold text-[#232E35] md:mt-8 text-[35px] mt-6">
+        <h1 className="md:text-[36px] font-bold text-[#232E35] md:mt-8 text-[35px] mt-6 dark:text-[#FFFFFF]">
           About me
         </h1>
       </div>
@@ -28,13 +28,13 @@ const About = () => {
 
         {/* Right Section */}
         <div className='md:w-1/2 w-full p-4 flex flex-col'>
-          <h2 className='text-[24px] font-semibold text-[#232E35] text-center md:text-start'>
+          <h2 className='text-[24px] font-semibold text-[#232E35] text-center md:text-start dark:text-[#FFFFFF]'>
             Suphanat <span className='text-[#7E74F1]'>Chanlek</span>
           </h2>
-          <p className='text-[18px] font-normal text-[#656D72] text-center md:text-start'>
+          <p className='text-[18px] font-normal text-[#656D72] text-center md:text-start dark:text-[#FFFFFF]'>
             Frontend Developer
           </p>
-          <p className='text-[16px] font-medium text-[#656D72] text-center md:text-start md:pt-4 pt-2'>
+          <p className='text-[16px] font-medium text-[#656D72] text-center md:text-start md:pt-4 pt-2 dark:text-[#FFFFFF]'>
             I am currently studying for a degree in Computer Science at Thammasat University.
           </p>
           <hr className='h-[1px] my-8 md:mx-0 mx-4 border-0 bg-[#D2D2D2]' />
@@ -48,7 +48,7 @@ const About = () => {
           ].map((skill, index) => (
             <div key={index} className="flex items-center pt-4">
               <MdOutlineRemove className="text-[#D9D9D9] mr-4 text-[20px]" />
-              <p className="md:text-[18px] text-[15px] font-normal text-[#656D72]">
+              <p className="md:text-[18px] text-[15px] font-normal text-[#656D72] dark:text-[#FFFFFF]">
                 {skill}
               </p>
             </div>

@@ -6,16 +6,16 @@ import { TfiWorld } from "react-icons/tfi";
 
 const Service = () => {
   return (
-    <div className="bg-[#f7f7f7] font-body md:p-0 p-4">
+    <div className="bg-[#f7f7f7] font-body md:p-0 p-4 dark:bg-[#171717]">
       {/* ข้อความ */}
       <div className="container mx-auto md:pt-[150px] pt-[100px]">
         <div className="flex items-center justify-center">
           <MdOutlineRemove className="text-[#D9D9D9] mr-4 text-[30px] items-center" />
-          <p className="md:text-[16px] text-[14px] font-medium text-[#656D72] md:tracking-[7.5px] tracking-[6.5px] text-center">
+          <p className="md:text-[16px] text-[14px] font-medium text-[#656D72] md:tracking-[7.5px] tracking-[6.5px] text-center dark:text-[#FFFFFF]">
             SERVICES
           </p>
         </div>
-        <h1 className="md:text-center md:text-[36px] font-bold text-[#232E35] md:mt-8 text-center text-[35px] mt-8">
+        <h1 className="md:text-center md:text-[36px] font-bold text-[#232E35] md:mt-8 text-center text-[35px] mt-8 dark:text-[#FFFFFF]">
           Specialized in
         </h1>
       </div>

@@ -9,20 +9,20 @@ const Home = () => {
 
             <div className='flex items-center'>
                 <MdOutlineRemove className='text-[#D9D9D9] mr-4 text-[30px] items-center' /> 
-                <p className='md:text-[14px] text-[16px] font-medium text-[#656D72] md:tracking-[7.5px] tracking-[6.5px]'>
+                <p className='md:text-[14px] text-[16px] font-medium text-[#656D72] md:tracking-[7.5px] tracking-[6.5px] dark:text-[#FFFFFF]'>
                     MY NAME IS
                 </p>
             </div>
             
-            <h1 className='md:text-[44px] md:text-start font-bold text-[#232E35] md:mt-8 text-center text-[40px] mt-10'>Suphanat <span className='text-[#7E74F1]'>Chanlek.</span></h1>
+            <h1 className='md:text-[44px] md:text-start font-bold text-[#232E35] md:mt-8 text-center text-[40px] mt-10 dark:text-[#FFFFFF]'>Suphanat <span className='text-[#7E74F1]'>Chanlek.</span></h1>
 
-            <p className='md:text-[16px] md:text-start text-[#232E35] font-normal mt-8 text-center'>
+            <p className='md:text-[16px] md:text-start text-[#232E35] font-normal mt-8 text-center dark:text-[#FFFFFF]'>
                 Creative front-end developer. Proficient in JavaScript, Next.js and React.js and <br /> are interested in making web applications.
             </p>
 
             {/* Button */}
             <div className='flex items-center md:items-start md:mt-[85px] md:justify-start justify-center mt-[50px]'>
-                <button className='text-[16px] text-center font-medium pt-4 pb-4 pr-6 pl-6 border-2 rounded-md'>
+                <button className='text-[16px] text-center font-medium pt-4 pb-4 pr-6 pl-6 border-2 rounded-md dark:text-[#FFFFFF]'>
                     <a href="https://github.com/suphanatchanlek30">Resume</a>
                 </button>
             </div>
