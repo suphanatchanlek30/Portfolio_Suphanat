@@ -6,6 +6,8 @@ import { Navigation } from "swiper/modules";
 import { useRef } from "react";
 import { MdOutlineRemove } from 'react-icons/md'
 import { IoLinkOutline } from "react-icons/io5";
+
+// import picture Project
 import Portfolio from "../assets/project/project1.png";
 
 const Work = () => {
