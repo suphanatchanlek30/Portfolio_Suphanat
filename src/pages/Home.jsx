@@ -1,5 +1,6 @@
 import React from 'react'
 import { MdOutlineRemove } from "react-icons/md";
+import img1 from "../assets/img/img1.png";
 
 const Home = () => {
   return (
@@ -31,7 +32,7 @@ const Home = () => {
         {/* Right */}
         <div className='md:w-1/2 w-full'>
             <div className='flex md:justify-end md:w-full md:h-[450px] lg:w-full lg:h-[500px] mx-auto w-full h-[300px] justify-center'>
-                <img src="/src/assets/img/img1.png" alt=""/>
+                <img src={img1} alt=""/>
             </div>
         </div>
     </div>

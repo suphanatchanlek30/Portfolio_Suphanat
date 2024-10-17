@@ -9,6 +9,7 @@ import { IoLinkOutline } from "react-icons/io5";
 
 // import picture Project
 import Portfolio from "../assets/project/project1.png";
+import test from "../assets/project/test.png";
 
 const Work = () => {
   const prevRef = useRef(null);
@@ -22,21 +23,21 @@ const Work = () => {
       link: "https://www.figma.com/design/YoHp6g7w8B77IejvLXQdVv/Portfolio-Suphanat-Chanlek?node-id=0-1&t=UOEIN5TYtLVfz3Rd-1",
     },
     {
-      img: "https://via.placeholder.com/500x300",
-      title: "Dashboard Website.",
-      tech1: ["React"],
+      img: test,
+      title: "Coming soon",
+      tech1: ["Test"],
       link: "#",
     },
     {
-      img: "https://via.placeholder.com/500x300",
-      title: "Support Center Website.",
-      tech1: ["PHP"],
+      img: test,
+      title: "Coming soon",
+      tech1: ["Test"],
       link: "#",
     },
     {
-        img: "https://via.placeholder.com/500x300",
-        title: "Support Center Website.",
-        tech1: ["PHP"],
+        img: test,
+        title: "Coming soon",
+        tech1: ["Test"],
         link: "#",
     },
   ];

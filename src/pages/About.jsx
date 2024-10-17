@@ -1,6 +1,8 @@
 import React from 'react';
 import { MdOutlineRemove } from 'react-icons/md';
 
+import img2 from "../assets/img/img2.png";
+
 const About = () => {
   return (
     <div className='container mx-auto flex flex-col font-body p-5'>
@@ -22,7 +24,7 @@ const About = () => {
         {/* Left Section */}
         <div className='md:w-1/2 w-full p-4 flex justify-center'>
           <div className='flex justify-center md:w-[370px] md:h-[370px] w-full h-[350px]'>
-            <img src="/src/assets/img/img2.png" alt="Profile" className='rounded-lg shadow-md' />
+            <img src={img2} alt="Profile" className='rounded-lg shadow-md' />
           </div>
         </div>
 
